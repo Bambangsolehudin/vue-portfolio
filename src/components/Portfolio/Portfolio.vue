@@ -33,15 +33,18 @@
                         <img v-for="(img, indexImg) in item.img" :key="indexImg" class="img-thumbnail" style="width:50%" :src="img" alt="" srcset="">
                     </div>
                     <hr>
-                        {{item.desc.parent}}
-                        <ul>
-                            <li v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
-                        </ul>
-                        <template #modal-footer="{ ok}">
-                            <b-button size="sm" variant="success" @click="ok()">
-                                OK
-                            </b-button>
-                        </template>
+                     <p> {{item.desc.parent}} </p> 
+                    <ul>
+                        <li v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
+                    </ul>
+
+
+                    
+                    <template #modal-footer="{ ok}">
+                        <b-button size="sm" variant="success" @click="ok()">
+                            OK
+                        </b-button>
+                    </template>
                     </b-modal>
                 </div>
               </div>
