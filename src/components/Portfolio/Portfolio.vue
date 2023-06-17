@@ -36,8 +36,8 @@
                             </div>
                             <hr>
                             <p class="text-secondary"> {{item.desc.parent}} </p> 
-                            <ul>
-                                <li class="text-secondary" v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
+                            <ul class="text-secondary px-4">
+                                <li v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
                             </ul>
                         </div>
                     <template #modal-footer="{ ok}">
