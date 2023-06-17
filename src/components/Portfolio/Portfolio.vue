@@ -28,18 +28,17 @@
                 <div class="portfolio-links">
                     <a href="#" @click="$bvModal.show(`bv-modal-${index}`)"><i class="bx bx-link"></i></a>
                     <b-modal :id="`bv-modal-${index}`" size="xl" :title="`Detail ( ${item.title} )`">
-                    <p class="my-4 text-secondary">Tools : {{item.tools}}</p>
-                    <div>
-                        <img v-for="(img, indexImg) in item.img" :key="indexImg" class="img-thumbnail" style="width:50%" :src="img" alt="" srcset="">
-                    </div>
-                    <hr>
-                     <p> {{item.desc.parent}} </p> 
-                    <ul>
-                        <li v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
-                    </ul>
-
-
-                    
+                        <div class="row">
+                            <p class="my-4 text-secondary">Tools : {{item.tools}}</p>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" v-for="(img, indexImg) in item.img"  :key="indexImg">
+                                <img class="w-100 my-2" :src="img" alt="" srcset="">
+                            </div>
+                            <hr>
+                            <p> {{item.desc.parent}} </p> 
+                            <ul>
+                                <li v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
+                            </ul>
+                        </div>
                     <template #modal-footer="{ ok}">
                         <b-button size="sm" variant="success" @click="ok()">
                             OK
