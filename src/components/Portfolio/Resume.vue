@@ -22,6 +22,19 @@
               <p> <b>Scientific Research</b> :  “Web-based medical husada clinic information system”</p>
               <p></p>
             </div>
+
+            <h3 class="resume-title">Certificate</h3>
+            <div class="resume-item">
+              <h6>Dicoding - Learn Basic Javascript Programming</h6>
+              <h6>Dicoding - Learn Front-End Web for Beginner</h6>
+              <h6>Dicoding - Learn Front-End Web Development Fundamental</h6>
+              <h6>Dicoding - Learn to Build Web Apps with React</h6>
+              <h6>LepKom Gunadarma - Fundamental Web Programming</h6>
+              <h6>BuildWithAngga - Full-Stack Website Laravel Vue JS</h6>
+              <h6>BulidWithAngga - Full-Stack Website Developer</h6>
+            </div>
+
+
           </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
