@@ -29,14 +29,15 @@
                     <a href="#" @click="$bvModal.show(`bv-modal-${index}`)"><i class="bx bx-link"></i></a>
                     <b-modal :id="`bv-modal-${index}`" size="xl" :title="`Detail ( ${item.title} )`">
                         <div class="row">
+                            <h4 class="text-center text-dark font-weight-bold">{{item.title}}</h4>
                             <p class="my-4 text-secondary">Tools : {{item.tools}}</p>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" v-for="(img, indexImg) in item.img"  :key="indexImg">
                                 <img class="w-100 my-2" :src="img" alt="" srcset="">
                             </div>
                             <hr>
-                            <p> {{item.desc.parent}} </p> 
+                            <p class="text-dark"> {{item.desc.parent}} </p> 
                             <ul>
-                                <li v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
+                                <li class="text-dark" v-for="(sub, indexDesc) in item.desc.sub" :key="indexDesc">{{sub}}</li>
                             </ul>
                         </div>
                     <template #modal-footer="{ ok}">
