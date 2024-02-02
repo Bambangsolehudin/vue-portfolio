@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1><a href="index.html">Bambang Solehudin</a></h1>
+    <h1><a href="/">Bambang Solehudin</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="template/assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I'm a <span>Web Developer</span> from Bogor, Indonesia</h2>
@@ -9,8 +9,7 @@
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#resume">Experience</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>

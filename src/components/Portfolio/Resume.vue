@@ -1,66 +1,40 @@
 <template>
 <div class="container">
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>Check My Resume</p>
+        <div class="section-title mb-5">
+          <h2>Experience</h2>
+          <!-- <p>Check My Experience</p> -->
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Bambang Solehudin</h4>
-              <p><em>I am a graduate from Informatics Engineering, Gunadarma University, who has experience in web development such as HTML, CSS, PHP, and Javascript.</em></p>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
+        <div class="row text-white">
+          <div class="col-lg-6 col-md-6 c0l-sm-12 ">
             <div class="resume-item">
-              <h4>Bachelor Degree at Gunadarma University</h4>
-              <h5>2016 - 2020</h5>
-              <p><em>Informatics Engineering, gpa 3.48</em></p>
-              <p><b>Thesis</b> : “Implementation of the CNN-Single Shot Multibox Method Detector(SSD7 On Clover Leaf Object Detection </p>
-              <p> <b>Scientific Research</b> :  “Web-based medical husada clinic information system”</p>
-              <p></p>
-            </div>
-
-            <h3 class="resume-title">Certificate</h3>
-            <div class="resume-item">
-              <h6>Dicoding - Learn Basic Javascript Programming</h6>
-              <h6>Dicoding - Learn Front-End Web for Beginner</h6>
-              <h6>Dicoding - Learn Front-End Web Development Fundamental</h6>
-              <h6>Dicoding - Learn to Build Web Apps with React</h6>
-              <h6>LepKom Gunadarma - Fundamental Web Programming</h6>
-              <h6>BuildWithAngga - Full-Stack Website Laravel Vue JS</h6>
-              <h6>BulidWithAngga - Full-Stack Website Developer</h6>
-            </div>
-
-
-          </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Frontend Web Developer - Sarirasa Group</h4>
+              <h4>Web Developer - Sarirasa Group</h4>
               <h5>Nov 2022 - Present</h5>
               <p><em>Jakarta, Indonesia </em></p>
-              <p>
-              <ul>
-                <li>Adding Features : Crud Data, Authentication, Auth(Multi User), Filtered Data, Export Data, etc</li>
+              
+              <ul class="text-left-1" >
+                <li>Create and develope web-based applications using Vue.js and Express.js, significantly improving user experience</li>
+                <li>Create and add features to the system such as (Crud Data, SPA, Live Search, Authentication, Filtered Data, Export Data, etc)</li>
                 <li>Debugging Errors on the Front End on a Website-based in project</li>
               </ul>
-              <span>Skills : HTML, CSS, JAVASCRIPT, NuxtJS, Bootstrap</span>
-              </p>
+              <p class="text-warning text-center"> Vue.js, Vuex, Express.js, SQL, Bootstrap, Vue-Bootstrap, MongoDB, etc.</p>
+              
             </div>
+          </div>
+          <div class="col-lg-6 col-md-6 c0l-sm-12">
             <div class="resume-item">
               <h4>Frontend Web Developer - ATT Group</h4>
-              <h5>Oct 2021 - Nov 2022</h5>
-              <p><em>Jakarta, Indonesia</em></p>
-              <p>
-              <ul>
-                <li>Adding Features : Authentication, Crud data, Filtered data, Notifications, Real-time data , TTD features, etc</li>
-                <li>Debugging Errors on the Front End on a Website-based in project</li>
+               <h5>Oct 2021 - Nov 2022</h5>
+              <p><em>Jakarta, Indonesia </em></p>
+              <ul class="text-left-1">
+                <li>Created and developed web-based applications using Nuxt.js</li>
+                <li>Implementing the design created into the UI of a web-based application using Bootstrap and Nuxt.js</li>
+                <li>Create and add features to the system such as (Authentication, SPA, Filtered data, Notifications, Realtime data , Signature-features, Lazy-load, etc)</li>
+                <li>
+                  Debugging system errors on frontend using Nuxt.js
+                </li>
               </ul>
-              <span>Skills : HTML, CSS, JAVASCRIPT, VueJS, Bootstrap</span>
-              </p>
+              <p class="text-warning text-center">Nuxt.js, Vue.js, SQL, Vuex, Bootstrap, Slicing Design, etc </p>
             </div>
           </div>
         </div>
@@ -75,5 +49,7 @@ export default {
 </script>
 
 <style>
-
+.text-left-1{
+  text-align:left;
+}
 </style>

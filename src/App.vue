@@ -17,10 +17,7 @@
       <Resume />
     </section><!-- End Resume Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <Service />
-    </section><!-- End Services Section -->
+   
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -43,7 +40,6 @@
 import Home from './components/Portfolio/Home.vue'
 import About from './components/Portfolio/About.vue'
 import Resume from './components/Portfolio/Resume.vue'
-import Service from './components/Portfolio/Service.vue'
 import Contact from './components/Portfolio/Contact.vue'
 import Portfolio from './components/Portfolio/Portfolio.vue'
 
@@ -60,7 +56,6 @@ export default {
     Home,
     About,
     Resume,
-    Service,
     Contact,
     Portfolio
   },
