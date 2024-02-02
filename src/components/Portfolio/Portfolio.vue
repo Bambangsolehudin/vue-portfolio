@@ -26,6 +26,13 @@
                 <div class="portfolio-links">
                     <a href="#" @click="$bvModal.show(`bv-modal-${index}`)"><i class="bx bx-link"></i></a>
                     <b-modal :id="`bv-modal-${index}`" size="xl" :title="`Detail ( ${item.title} )`">
+                        <template #modal-header="{ close }">
+                            <h4>Detail Portfolio</h4>
+                            <!-- Emulate built in modal header close button action -->
+                            <b-button size="sm" variant="outline-danger" @click="close()">
+                                X
+                            </b-button>
+                        </template>
                         <div class="row mx-4">
                             <h4 class="text-center text-dark font-weight-bold">{{item.title}}</h4>
                             <p class="my-4 text-secondary">Tools : {{item.tools}}</p>
