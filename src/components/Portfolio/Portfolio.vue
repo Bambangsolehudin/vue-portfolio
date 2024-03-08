@@ -150,24 +150,7 @@ export default {
                     }
                     
                 },
-                {
-                    title : 'Lost Items App',
-                    tools: 'Laravel, SQL, Bootstrap',
-                    type : 'Web App',
-                    img : [
-                        '/template/assets/img/portfolio/lost_item/lost_item.jpg',
-                        '/template/assets/img/portfolio/lost_item/1.jpg'
-                    ],
-                    desc: {
-                        parent: 'This program is a website-based program created to search for and find lost items, along with some of the features in this program',
-                        sub: [
-                            'Authentication',
-                            'Feature Crud Item with multiple image',
-                            'Feature Manipulation data in user'
-                        ]
-                    }
-                    
-                },
+             
                
             ]
         }
