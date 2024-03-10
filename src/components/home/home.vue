@@ -32,8 +32,11 @@
     <div class="col-12 my-3 d-flex justify-content-between align-items-center">
       <h2 class="text-danger fw-bold">KerjaYuk!</h2>
       <div>
-        <a href="" @click.prevent="showNotif"><i class="fa-regular text-dark fa-bell fa-2x"></i></a>
-        
+        <a id="popover-target-1-left" href="" @click.prevent="showNotif"><i class="fa-regular text-dark fa-bell fa-2x"></i></a>
+          <b-popover target="popover-target-1-left" placement="left" triggers="hover">
+            <template #title>Notif</template>
+            Klik untuk lihat Notifikasi
+          </b-popover>
       </div>
     </div>
     <div class="col-12">
