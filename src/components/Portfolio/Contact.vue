@@ -13,7 +13,7 @@
               <i class="bx bx-share-alt"></i>
               <h3>Social Profiles</h3>
               <div class="social-links">
-                <a href="https://www.instagram.com/bambangsolhud/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+                <!-- <a href="https://www.instagram.com/bambangsolhud/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a> -->
                 <a href="https://www.linkedin.com/in/bambang-solehudin/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
@@ -22,7 +22,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Me</h3>
-              <p>karir.bambang@gmail.com</p>
+              <p>karirs.bambang@gmail.com</p>
             </div>
           </div>
         </div>

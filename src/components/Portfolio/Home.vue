@@ -18,7 +18,7 @@
 
       <div class="social-links">
         <a href="mailto:karir.bambang@gmail.com?subject = Feedback&body = Message" target="_blank" class="email"><i class="bi bi-envelope"></i></a>
-        <a href="https://www.instagram.com/bambangsolhud/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+        <!-- <a href="https://www.instagram.com/bambangsolhud/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a> -->
         <a href="https://www.linkedin.com/in/bambang-solehudin/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
   </div>

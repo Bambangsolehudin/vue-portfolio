@@ -68,6 +68,21 @@ export default {
         return {
             porfolioData: [
                 {
+                    title : 'EMIS 4.0 - JUKE Solution',
+                    type : 'Web App - Android App',
+                    tools: 'React-native, React.js, SQL, Laravel',
+                    img : [
+                        '/template/assets/img/portfolio/emis/1.jpg',
+                        '/template/assets/img/portfolio/emis/2.jpg'
+                    ],
+                    desc: {
+                        parent: 'Program EMIS adalah program pengembangan sistem pendataan pendidikan yang dikelola oleh Kementerian Agama (Kemenag). EMIS merupakan singkatan dari Education Management Information System. EMIS memungkinkan sistem pengelolaan data siswa yang akurat, valid dan efisien yang dapat menggambarkan kondisi dari seorang siswa berdasarkan data. Berdasarkan data yang didapat dari EMIS, bantuan seperti PIP dapat dipastikan tersalurkan dengan tepat kepada siswa yang membutuhkan.',
+                        sub: []
+                    }
+                    
+                },
+
+                {
                     title : 'LSP Geti - ATT GROUP',
                     type : 'Web App',
                     tools: 'Laravel, Nuxt.js, SQL',
